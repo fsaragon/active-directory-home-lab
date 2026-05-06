@@ -42,7 +42,9 @@ The virtual machine was configured with enough resources to support Windows Serv
 | CPU | 2 cores |
 | Disk | 50 GB dynamically allocated |
 
-#### Screenshot Evidence: VM Creation Settings
+---
+
+### Evidence 01: VM Creation Settings
 
 | Field | Details |
 |---|---|
@@ -53,7 +55,7 @@ The virtual machine was configured with enough resources to support Windows Serv
 
 ---
 
-#### Screenshot Evidence: VM Hardware Settings
+### Evidence 02: VM Hardware Settings
 
 | Field | Details |
 |---|---|
@@ -64,7 +66,7 @@ The virtual machine was configured with enough resources to support Windows Serv
 
 ---
 
-#### Screenshot Evidence: VM Summary
+### Evidence 03: VM Summary
 
 | Field | Details |
 |---|---|
@@ -75,7 +77,7 @@ The virtual machine was configured with enough resources to support Windows Serv
 
 ---
 
-#### Screenshot Evidence: VM Listed in VirtualBox
+### Evidence 04: VM Listed in VirtualBox
 
 | Field | Details |
 |---|---|
@@ -96,7 +98,9 @@ During installation, **Windows Server 2022 Evaluation, Desktop Experience** was 
 
 The Server Core option was not selected because it does not include the full graphical interface. Server Core is useful in some professional environments, but Desktop Experience is better for this lab. It allows tools like Server Manager and Active Directory Users and Computers to be used visually.
 
-#### Screenshot Evidence: OS Edition Selection
+---
+
+### Evidence 05: OS Edition Selection
 
 | Field | Details |
 |---|---|
@@ -107,7 +111,7 @@ The Server Core option was not selected because it does not include the full gra
 
 ---
 
-#### Screenshot Evidence: Installation Progress
+### Evidence 06: Installation Progress
 
 | Field | Details |
 |---|---|
@@ -118,7 +122,7 @@ The Server Core option was not selected because it does not include the full gra
 
 ---
 
-#### Screenshot Evidence: Installation Restart
+### Evidence 07: Installation Restart
 
 | Field | Details |
 |---|---|
@@ -137,7 +141,9 @@ After setting the password, the server was unlocked using **Ctrl + Alt + Delete*
 
 Server Manager is the main graphical tool used to configure Windows Server roles, features, and local server settings. Seeing it open after login confirmed that the operating system installed correctly and was ready for configuration.
 
-#### Screenshot Evidence: Server Manager First Login
+---
+
+### Evidence 08: Server Manager First Login
 
 | Field | Details |
 |---|---|
@@ -167,7 +173,9 @@ The server was renamed by following this path:
 5. Renamed the server to `DC01`
 6. Restarted the server to apply the change
 
-#### Screenshot Evidence: Random Server Name Before Rename
+---
+
+### Evidence 09: Random Server Name Before Rename
 
 | Field | Details |
 |---|---|
@@ -178,7 +186,7 @@ The server was renamed by following this path:
 
 ---
 
-#### Screenshot Evidence: Server Renamed to DC01
+### Evidence 10: Server Renamed to DC01
 
 | Field | Details |
 |---|---|
@@ -210,7 +218,9 @@ AD DS was installed through Server Manager using the Add Roles and Features wiza
 7. Continued through the remaining wizard pages
 8. Clicked **Install**
 
-#### Screenshot Evidence: AD DS Role Selected
+---
+
+### Evidence 11: AD DS Role Selected
 
 | Field | Details |
 |---|---|
@@ -247,7 +257,9 @@ The following configuration was used during promotion:
 | DSRM Password | Configured during promotion |
 | Remaining Settings | Default values |
 
-#### Screenshot Evidence: Domain Controller Options
+---
+
+### Evidence 12: Domain Controller Options
 
 | Field | Details |
 |---|---|
@@ -258,7 +270,7 @@ The following configuration was used during promotion:
 
 ---
 
-#### Screenshot Evidence: New Forest Configuration
+### Evidence 13: New Forest Configuration
 
 | Field | Details |
 |---|---|
@@ -269,7 +281,7 @@ The following configuration was used during promotion:
 
 ---
 
-#### Screenshot Evidence: Prerequisites Check
+### Evidence 14: Prerequisites Check
 
 | Field | Details |
 |---|---|
@@ -292,7 +304,9 @@ After the server restarted, the login screen showed **CORP\Administrator**. This
 
 Before promotion, the server used a local Administrator account. After promotion, the Administrator account became part of the domain. This change confirmed that the `corp.local` domain was created successfully.
 
-#### Screenshot Evidence: Domain Login Screen
+---
+
+### Evidence 15: Domain Login Screen
 
 | Field | Details |
 |---|---|
@@ -317,7 +331,9 @@ whoami
 
 This command shows the account currently being used in the session.
 
-#### Screenshot Evidence: whoami Output
+---
+
+### Evidence 16: whoami Output
 
 | Field | Details |
 |---|---|
@@ -336,7 +352,9 @@ systeminfo
 
 This command displays detailed system information, including the host name, operating system version, and domain membership.
 
-#### Screenshot Evidence: systeminfo Output
+---
+
+### Evidence 17: systeminfo Output
 
 | Field | Details |
 |---|---|
@@ -355,7 +373,9 @@ net user administrator /domain
 
 This command checks the Administrator account from the domain instead of only checking a local user account.
 
-#### Screenshot Evidence: net user Domain Output
+---
+
+### Evidence 18: net user Domain Output
 
 | Field | Details |
 |---|---|
@@ -374,7 +394,9 @@ Active Directory Users and Computers is one of the main tools used to manage a W
 
 This tool will be used heavily in future labs when creating users, organizing accounts into OUs, managing groups, and applying Group Policy.
 
-#### Screenshot Evidence: Active Directory Users and Computers
+---
+
+### Evidence 19: Active Directory Users and Computers
 
 | Field | Details |
 |---|---|
