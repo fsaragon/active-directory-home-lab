@@ -110,7 +110,6 @@ After installation, a warning flag appeared in Server Manager. Clicked it and se
 
 The server restarted automatically after promotion. This step takes several minutes.
 
-> **Note:** There are two ways to complete this step. The GUI wizard shown here is the straightforward approach. The wizard also generates a PowerShell script on the review screen that can be copied and run instead, which is the more advanced method.
 
 ![Domain Controller options](screenshots/11-domain-controller-options.png)
 
