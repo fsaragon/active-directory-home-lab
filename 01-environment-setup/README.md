@@ -44,7 +44,7 @@ The virtual machine was configured with enough resources to support Windows Serv
 
 ---
 
-### Evidence 01: VM Creation Settings
+### Screenshot 01: VM Creation Settings
 
 | Field | Details |
 |---|---|
@@ -55,7 +55,7 @@ The virtual machine was configured with enough resources to support Windows Serv
 
 ---
 
-### Evidence 02: VM Hardware Settings
+### Screenshot 02: VM Hardware Settings
 
 | Field | Details |
 |---|---|
@@ -66,7 +66,7 @@ The virtual machine was configured with enough resources to support Windows Serv
 
 ---
 
-### Evidence 03: VM Summary
+### Screenshot 03: VM Summary
 
 | Field | Details |
 |---|---|
@@ -77,7 +77,7 @@ The virtual machine was configured with enough resources to support Windows Serv
 
 ---
 
-### Evidence 04: VM Listed in VirtualBox
+### Screenshot 04: VM Listed in VirtualBox
 
 | Field | Details |
 |---|---|
@@ -92,7 +92,7 @@ The virtual machine was configured with enough resources to support Windows Serv
 
 ### Step 2: Install Windows Server 2022
 
-After creating the virtual machine, the Windows Server 2022 ISO was mounted to the VM’s optical drive. The VM was then started so it could boot into the Windows Server installation setup.
+After creating the virtual machine, the Windows Server 2022 ISO was mounted to the VM’s virtual optical drive. The VM was then started so it could boot into the Windows Server installation setup.
 
 During installation, **Windows Server 2022 Evaluation, Desktop Experience** was selected. Desktop Experience includes the graphical user interface. This makes beginner administration tasks easier to complete and document.
 
@@ -100,7 +100,7 @@ The Server Core option was not selected because it does not include the full gra
 
 ---
 
-### Evidence 05: OS Edition Selection
+### Screenshot 05: OS Edition Selection
 
 | Field | Details |
 |---|---|
@@ -111,7 +111,7 @@ The Server Core option was not selected because it does not include the full gra
 
 ---
 
-### Evidence 06: Installation Progress
+### Screenshot 06: Installation Progress
 
 | Field | Details |
 |---|---|
@@ -122,7 +122,7 @@ The Server Core option was not selected because it does not include the full gra
 
 ---
 
-### Evidence 07: Installation Restart
+### Screenshot 07: Installation Restart
 
 | Field | Details |
 |---|---|
@@ -143,7 +143,7 @@ Server Manager is the main graphical tool used to configure Windows Server roles
 
 ---
 
-### Evidence 08: Server Manager First Login
+### Screenshot 08: Server Manager First Login
 
 | Field | Details |
 |---|---|
@@ -175,7 +175,7 @@ The server was renamed by following this path:
 
 ---
 
-### Evidence 09: Random Server Name Before Rename
+### Screenshot 09: Random Server Name Before Rename
 
 | Field | Details |
 |---|---|
@@ -186,7 +186,7 @@ The server was renamed by following this path:
 
 ---
 
-### Evidence 10: Server Renamed to DC01
+### Screenshot 10: Server Renamed to DC01
 
 | Field | Details |
 |---|---|
@@ -220,7 +220,7 @@ AD DS was installed through Server Manager using the Add Roles and Features wiza
 
 ---
 
-### Evidence 11: AD DS Role Selected
+### Screenshot 11: AD DS Role Selected
 
 | Field | Details |
 |---|---|
@@ -259,7 +259,7 @@ The following configuration was used during promotion:
 
 ---
 
-### Evidence 12: Domain Controller Options
+### Screenshot 12: Domain Controller Options
 
 | Field | Details |
 |---|---|
@@ -270,7 +270,7 @@ The following configuration was used during promotion:
 
 ---
 
-### Evidence 13: New Forest Configuration
+### Screenshot 13: New Forest Configuration
 
 | Field | Details |
 |---|---|
@@ -281,7 +281,7 @@ The following configuration was used during promotion:
 
 ---
 
-### Evidence 14: Prerequisites Check
+### Screenshot 14: Prerequisites Check
 
 | Field | Details |
 |---|---|
@@ -306,7 +306,7 @@ Before promotion, the server used a local Administrator account. After promotion
 
 ---
 
-### Evidence 15: Domain Login Screen
+### Screenshot 15: Domain Login Screen
 
 | Field | Details |
 |---|---|
@@ -333,7 +333,7 @@ This command shows the account currently being used in the session.
 
 ---
 
-### Evidence 16: whoami Output
+### Screenshot 16: whoami Output
 
 | Field | Details |
 |---|---|
@@ -354,7 +354,7 @@ This command displays detailed system information, including the host name, oper
 
 ---
 
-### Evidence 17: systeminfo Output
+### Screenshot 17: systeminfo Output
 
 | Field | Details |
 |---|---|
@@ -375,7 +375,7 @@ This command checks the Administrator account from the domain instead of only ch
 
 ---
 
-### Evidence 18: net user Domain Output
+### Screenshot 18: net user Domain Output
 
 | Field | Details |
 |---|---|
@@ -396,7 +396,7 @@ This tool will be used heavily in future labs when creating users, organizing ac
 
 ---
 
-### Evidence 19: Active Directory Users and Computers
+### Screenshot 19: Active Directory Users and Computers
 
 | Field | Details |
 |---|---|
