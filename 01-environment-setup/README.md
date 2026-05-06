@@ -6,7 +6,7 @@ This lab establishes the foundation for the entire Active Directory lab environm
 
 This setup is important because every future lab depends on this server working correctly. The domain controller will become the central system used to manage users, groups, computers, Organizational Units, Group Policy, and domain-joined client machines.
 
-By the end of this lab, Windows Server 2022 will be running in a virtual machine, renamed to `DC01`, and configured as the first domain controller for the `corp.local` domain.
+By the end of this lab, Windows Server 2022 will be running in a virtual machine. The server will be renamed to `DC01` and configured as the first domain controller for the `corp.local` domain.
 
 ---
 
